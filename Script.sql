@@ -4,14 +4,15 @@ select t.id, t.description, count( b.blurtid)
 from topic as t, blurt_analysis as b
 where t.id = b.topicid
 group by t.id
-order by t.id asc;
+order by t.id;
 
 
 
 select u.name, COUNT(f.follower)
 from celebrity as c, follow as f, user as u
 where c.email = f.followee and c.email = u.email
-group by c.email;
+group by u.name, c.email
+order by u.name;
 
 
 
@@ -28,8 +29,8 @@ from celebrity as c, user as u
 where c.email = u.email and c.email not in
 (select c1.email
 from celebrity as c1, follow as f
-where  c1.email = f.follower);
-
+where  c1.email = f.follower)
+order by u.name;
 
 
 select v.name, a.email, count(f.follower)
@@ -70,4 +71,5 @@ where u1.email = f1.follower and u2.email = f1.followee
 and u2.email = f2.follower and u3.email = f2.followee
 and u3.email <> f1.followee
 order by u1.name;
+
 
