@@ -8,24 +8,25 @@ id,description,location,count(distinct(b.blurtid)),avg(ba.sentiment)
 1,shoes,"Ney York",2,-0.3647
 1,shoes,Oregon,2,-0.7312
 1,shoes,Pennsylvania,2,-0.3573
+1,shoes,Texas,2,-0.1167
 1,shoes,Utah,2,-0.5324
 1,shoes,Washington,2,-0.2788
 1,shoes,Wyoming,2,-0.4690
-3,bats,California,2,-0.0913
-3,bats,Colarado,2,-0.2410
-3,bats,Florida,2,-0.1709
-3,bats,Hawaii,2,-0.3817
-3,bats,Illinois,2,-0.3271
-3,bats,Masachussets,2,-0.1709
-3,bats,Michigan,2,-0.3756
-3,bats,Nevada,2,-0.2256
-3,bats,"Ney York",2,-0.2513
-3,bats,Oregon,2,-0.1049
-3,bats,Pennsylvania,2,-0.2540
-3,bats,Texas,2,-0.3817
-3,bats,Utah,2,-0.1873
-3,bats,Washington,2,-0.2823
-3,bats,Wyoming,2,-0.2120
+3,bats,California,2,-0.1348
+3,bats,Colarado,2,-0.2674
+3,bats,Florida,2,-0.2049
+3,bats,Hawaii,2,-0.3955
+3,bats,Illinois,2,-0.3455
+3,bats,Masachussets,2,-0.2049
+3,bats,Michigan,2,-0.3899
+3,bats,Nevada,2,-0.2536
+3,bats,"Ney York",2,-0.2767
+3,bats,Oregon,2,-0.1467
+3,bats,Pennsylvania,2,-0.2791
+3,bats,Texas,2,-0.3553
+3,bats,Utah,2,-0.2194
+3,bats,Washington,2,-0.3047
+3,bats,Wyoming,2,-0.2415
 5,caps,California,2,-0.2101
 5,caps,Colarado,2,-0.2308
 5,caps,Florida,2,-0.2203
@@ -37,12 +38,15 @@ id,description,location,count(distinct(b.blurtid)),avg(ba.sentiment)
 5,caps,"Ney York",2,-0.2324
 5,caps,Oregon,2,-0.2117
 5,caps,Pennsylvania,2,-0.2329
-5,caps,Texas,2,-0.2571
+5,caps,Texas,2,-0.2480
 5,caps,Utah,2,-0.2226
 5,caps,Washington,2,-0.2377
 5,caps,Wyoming,2,-0.2263
-7,games,California,2,-0.0485
-7,games,Oregon,2,-0.0372
+7,games,California,2,-0.0968
+7,games,Florida,2,-0.0261
+7,games,Masachussets,2,-0.0261
+7,games,Oregon,2,-0.0848
+7,games,Utah,2,-0.0115
 9,teddys,California,2,-0.4760
 9,teddys,Colarado,2,-0.4713
 9,teddys,Florida,2,-0.4737
@@ -54,7 +58,7 @@ id,description,location,count(distinct(b.blurtid)),avg(ba.sentiment)
 9,teddys,"Ney York",2,-0.4709
 9,teddys,Oregon,2,-0.4756
 9,teddys,Pennsylvania,2,-0.4708
-9,teddys,Texas,2,-0.4649
+9,teddys,Texas,2,-0.4672
 9,teddys,Utah,2,-0.4732
 9,teddys,Washington,2,-0.4696
 9,teddys,Wyoming,2,-0.4723
